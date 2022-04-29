@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c0547f77dd.js" crossorigin="anonymous"></script>
+  <!-- 아이콘 -->
+  <title>Document</title>
+  <style>
+    *{margin:0; padding:0;}
+
+    :root {
+      --color-1:#ccc;
+      --color-2:rgb(138, 138, 138);
+      --color-3:rgb(66, 66, 66);
+    }
+    
+    #pc {
+      width: 100vw;
+      height: 100vh;
+      background-color: #fff;
+    
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    header {
+      width: 100%;
+      height: 10%;
+
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-left: 5%;
+      color: var(--color-1);
+      font-size: 35px;
+    }
+
+    main {
+      width: 100%;
+      height: 15%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 3%;
+    }
+
+    .icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 60px;
+      background-color: var(--color-2);
+    }
+
+    section {
+      width: 2000px;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    section > div{
+      width: 500px;
+      height: 300px;
+      background-color: var(--color-2);
+      margin:2%;
+      margin-top: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="pc">
+    <header>
+     <i class="fa-solid fa-angle-left"></i>
+    </header>
+
+    <main>
+      <div class="icon"></div>
+    </main>
+
+    <section>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </section>
+  </div>
+</body>
+</html>

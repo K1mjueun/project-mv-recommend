@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c0547f77dd.js" crossorigin="anonymous"></script>
+  <!-- 아이콘 -->
+  <title>Document</title>
+
+  <style>
+    *{margin:0; padding:0; list-style-type: none;}
+
+    #pc {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(255, 243, 240);
+    }
+
+    #mobile {
+      width: 400px;
+      height: 800px;
+      background-color: #fff;
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+      border-radius: 50px;
+      overflow: hidden;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    header {
+      width: 85%;
+      height: 5%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      font-size: x-large;
+      color: #ccc;
+    }
+
+    main {
+      width: 115px;
+      height: 115px;
+      border-radius: 115px;
+      background: rgb(255,218,225);
+      background: linear-gradient(135deg, rgba(255,218,225,1) 0%,
+      rgba(255,241,193,1) 100%);
+      margin-bottom: 5%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    main > h1 {
+      font-size: small;
+      color: rgb(70, 70, 70);
+    }
+
+    #colors {
+      width: 100%;
+      height: 75%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+
+    #colors > li {
+    width: 80%;
+    height: 7%;
+    border : solid 4px transparent;
+    border-radius: 100px;
+    background-image : linear-gradient(#fff,#fff),linear-gradient(to right, rgb(255,218,225), rgb(255,241,193));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    h2 {
+    color: rgb(126, 126, 126);
+    font-size: small;
+    font-weight: normal;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="pc">
+    <div id="mobile">
+      <header>
+        <i class="fa-solid fa-angle-left"></i>
+      </header>
+
+      <main>
+        <h1>COLOR</h1>
+      </main>
+
+      <div id="colors">
+      <li><h2>RED</h2></li>
+      <li><h2>ORANGE</h2></li>
+      <li><h2>BLUE</h2></li>
+      <li><h2>GREEN</h2></li>
+      <li><h2>PURPLE</h2></li>
+      <li><h2>PINK</h2></li>
+      <li><h2>YELLOW</h2></li>
+    </div>
+
+    </div>
+  </div>
+
+  <script>
+    let original = 'linear-gradient(#fff,#fff),linear-gradient(to right, rgb(255,218,225), rgb(255,241,193))';
+
+    const red = 'linear-gradient(#fff,#fff), linear-gradient(141deg, rgba(255,218,225,1) 0%, rgba(255,65,90,1) 100%)';
+    const orange= 'linear-gradient(#fff,#fff), linear-gradient(141deg, rgba(255,238,218,1) 0%, rgba(255,166,40,1) 100%)';
+    const blue = 'linear-gradient(#fff,#fff), linear-gradient(141deg, rgba(218,238,255,1) 0%, rgba(26,143,255,1) 100%)';
+    const green = 'linear-gradient(#fff,#fff), linear-gradient(141deg, rgba(233,255,229,1) 0%, rgba(100,224,89,1) 100%)';
+    const purple = 'linear-gradient(#fff,#fff), linear-gradient(141deg, rgba(244,229,255,1) 0%, rgba(168,89,224,1) 100%)';
+    const pink = 'linear-gradient(#fff,#fff), linear-gradient(141deg, rgba(255,229,236,1) 0%, rgba(255,179,195,1) 100%)';
+    const yellow = 'linear-gradient(#fff,#fff), linear-gradient(141deg, rgba(255,255,218,1) 0%, rgba(253,255,103,1) 100%)';
+
+  let color = document.getElementsByTagName('li');
+
+  color[0].addEventListener('mouseover', function(event) {event.target.style.backgroundImage = red});
+  color[0].addEventListener('mouseleave', function(event) {event.target.style.backgroundImage = original});
+
+  color[1].addEventListener('mouseover', function(event) {event.target.style.backgroundImage = orange});
+  color[1].addEventListener('mouseleave', function(event) {event.target.style.backgroundImage = original});
+
+  color[2].addEventListener('mouseover', function(event) {event.target.style.backgroundImage = blue});
+  color[2].addEventListener('mouseleave', function(event) {event.target.style.backgroundImage = original});
+
+  color[3].addEventListener('mouseover', function(event) {event.target.style.backgroundImage = green});
+  color[3].addEventListener('mouseleave', function(event) {event.target.style.backgroundImage = original});
+
+  color[4].addEventListener('mouseover', function(event) {event.target.style.backgroundImage = purple});
+  color[4].addEventListener('mouseleave', function(event) {event.target.style.backgroundImage = original});
+
+  color[5].addEventListener('mouseover', function(event) {event.target.style.backgroundImage = pink});
+  color[5].addEventListener('mouseleave', function(event) {event.target.style.backgroundImage = original});
+
+  color[6].addEventListener('mouseover', function(event) {event.target.style.backgroundImage = yellow});
+  color[6].addEventListener('mouseleave', function(event) {event.target.style.backgroundImage = original});
+
+  </script>
+</body>
+</html>

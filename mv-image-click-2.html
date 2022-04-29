@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c0547f77dd.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+
+  <style>
+  *{margin:0; padding:0;}
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #garo {
+  width: 800px;
+  height: 380px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  position: relative;
+  flex-wrap: wrap;
+  overflow: hidden;
+  }
+
+  nav {
+    width: 95%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    font-size: x-large;
+    color: #fff;
+
+    position: absolute;
+    top: 0%;
+    z-index: 1;
+  }
+
+  main {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: rgb(255, 255, 255) solid 15px;
+    background: rgb(255,252,202);
+background: linear-gradient(135deg, rgba(255,252,202,1) 0%, rgba(249,249,198,1) 31%, rgba(135,182,121,1) 100%);
+
+position: absolute;
+z-index: 1;
+
+
+display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+    font-size: 40px;
+  }
+
+  h1 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+z-index: 1;
+
+bottom:20%;
+  }
+
+  .photo-1, .photo-2 ,.photo-3, .photo-4 {
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+    opacity: .5;
+  }
+
+  .photo-1 {
+    background-image: url("https://image.genie.co.kr/Y/IMAGE/IMG_MUSICVIDEO/000/128/868/128868_2_640x360.JPG/dims/resize/Q_80,0");
+  }
+  .photo-2 {
+    background-image: url("https://mblogthumb-phinf.pstatic.net/MjAxOTA2MTdfNTkg/MDAxNTYwNzgyNzAzNTg3.8A5az6SisWcmW9qK6xZIn9kla-dWjWsCB0pHcefx210g.E1Zz-22WZpnebtWQUWBA7k3Isof-4MzSVeZWzQJ9pfsg.PNG.skwogud581_/1.png?type=w800");
+  }
+  .photo-3 {
+    background-image: url("http://ojsfile.ohmynews.com/STD_IMG_FILE/2019/0327/IE002475282_STD.jpg");
+  }
+  .photo-4 {
+    background-image: url("https://phinf.pstatic.net/image.nmv/blog_2020_03_28_1582/89c6a9b6-70de-11ea-9968-505dac8c38f5_04.jpg?type=w2");
+  }
+
+  </style>
+
+</head>
+<body>
+  <div id="garo">
+    
+    <nav>
+      <i class="fa-solid fa-angle-left"></i>
+    </nav> 
+
+    <main>
+      <i class="fa-solid fa-play"></i>
+    </main>
+    <h1>MY PLAYLIST</h1>
+
+    <div class="photo-1">
+    </div>
+    <div class="photo-2">
+    </div>
+    <div class="photo-3">
+    </div>
+    <div class="photo-4">
+    </div>
+
+  </div>
+
+  <script>
+  let photo = document.querySelector('#garo');
+    photo.addEventListener('click', function(event) {
+      event.target.style.opacity = "1";
+      // console.log(event.target.style.opacity);
+      // console.log(typeof event.target.style.opacity);
+      // if(event.target.style.opacity === "1") {
+        // alert("주은씨만 보면 파이리가 떠올라");
+      //   event.target.style.opacity="0.3";}
+      }
+    );
+  </script>
+
+</body>
+</html>

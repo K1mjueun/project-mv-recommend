@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c0547f77dd.js" crossorigin="anonymous"></script>
+  <!-- 아이콘 -->
+  <title>Document</title>
+  <style>
+    *{margin:0; padding:0;}
+
+:root {
+  --color-1:#ccc;
+  --color-2:rgb(163, 163, 163);
+  --color-3:rgb(99, 99, 99);
+}
+
+#pc {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-1);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tablet {
+  width: 500px;
+  height: 800px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+  background-color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  position: relative;
+}
+
+nav {
+  width: fit-content;
+  height: 10%;
+  font-size: 15px;
+  color: var(--color-1);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 0;
+}
+
+.weather {
+  width: fit-content;
+  height: fit-content;
+  font-size: 170px;
+  margin: 3%;
+  color: rgb(199, 237, 252);
+}
+
+h1 {
+width: fit-content;
+height: fit-content;
+font-size: 20px;
+font-weight: bold;
+color: var(--color-2);
+}
+
+#tablet-2 {
+  width: 500px;
+  height: 800px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+  background-color: rgb(66, 66, 66);
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  position: relative;
+}
+
+#tablet-2 > nav {
+  width: 100%;
+  height: 10%;
+  padding-left: 10%;
+  font-size: 25px;
+  color: var(--color-1);
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.icon {
+  width: fit-content;
+  height: fit-content;
+  margin-bottom:3%;
+  color: var(--color-1);
+  font-size: 45px;
+
+  position: absolute;
+  top: 5%;
+}
+
+.img {
+width: 85%;
+height: 30%;
+background-image: url("https://mblogthumb-phinf.pstatic.net/MjAxODAxMzBfMjYy/MDAxNTE3MzIzNzY1NTI3.XcABxQfdyqo0byhbPD5ssh3wW0MuBajdAL55kCtWoGQg.Du9kx2bMjIPI73wcf95c4TK1MHnXqvMPAuB1CTX1iSog.JPEG.nay1121/Screenshot_20180130-233632.jpg?type=w800");
+background-size: cover;
+}
+
+#tablet-3 {
+  width: 500px;
+  height: 800px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+  background-color: rgb(66, 66, 66);
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+
+  position: relative;
+}
+
+#tablet-3 > nav {
+  width: 100%;
+  height: 10%;
+  padding-left: 10%;
+  font-size: 25px;
+  color: var(--color-1);
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#tablet-3 > main {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+  position: absolute;
+  top:15%;
+}
+
+main > .img {
+width: 425px;
+height: 240px;
+background-size: cover;
+}
+
+#tablet-3 > main > div:nth-child(1) {
+background-image: url("https://mblogthumb-phinf.pstatic.net/MjAxODAxMzBfMjYy/MDAxNTE3MzIzNzY1NTI3.XcABxQfdyqo0byhbPD5ssh3wW0MuBajdAL55kCtWoGQg.Du9kx2bMjIPI73wcf95c4TK1MHnXqvMPAuB1CTX1iSog.JPEG.nay1121/Screenshot_20180130-233632.jpg?type=w800");
+}
+
+#tablet-3 > main > div:nth-child(2) {
+background-image: url("http://cdnimage.dailian.co.kr/news/201712/news_1513041430_680007_m_1.jpg");
+}
+
+#tablet-3 > main > div:nth-child(3) {
+background-image: url("https://mblogthumb-phinf.pstatic.net/MjAxNzAxMTNfODMg/MDAxNDg0MjM4ODQ4NDg4.Eox26im-qeyHp80a9Z_sS0rhLaYvsIno9C4BMvp5WCQg.CPqn8huvyjBEDPHWpJxlC0ThOEg92GhdR0-Wj0KBfwog.JPEG.natwo1000/161207_05.jpg?type=w2");
+}
+
+#tablet-3 > .icon {
+  width: fit-content;
+  height: 10%;
+  color: var(--color-1);
+  font-size: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  </style>
+</head>
+<body>
+  <div id="pc">
+
+    <div id="tablet">
+    <nav>MENU</nav>
+    <h1>SNOWY -10 / 2</h1>
+    <div class="weather">
+      <i class="fa-solid fa-snowflake"></i>
+    </div>
+    <h1>CLICK TODAY'S WEATHER!</h1>
+    </div>
+
+    <div id="tablet-2">
+      <nav>
+        <i class="fa-solid fa-angle-left"></i>
+      </nav>
+      <div class="icon">
+        <i class="fa-solid fa-snowflake"></i>
+      </div>
+        <div class="img"></div>
+    </div>
+
+    <div id="tablet-3">
+      <nav>
+        <i class="fa-solid fa-angle-left"></i>
+      </nav>
+      <div class="icon">
+        <i class="fa-solid fa-snowflake"></i>
+      </div>
+
+      <main>
+        <div class="img"></div>
+        <div class="img"></div>
+        <div class="img"></div>
+      </main>
+    </div>
+  
+  </div>
+
+  <script>
+    const weather = document.querySelector(".weather");
+    const tabletOne = document.querySelector("#tablet");
+    const tabletTwo = document.querySelector("#tablet-2");
+    const tabletThree = document.querySelector("#tablet-3");
+    console.log(weather);
+    console.log(tabletOne);
+    console.log(tabletTwo);
+    console.log(tabletThree);
+
+    weather.addEventListener("click", function() {
+      tabletOne.style.display = "none";
+      tabletTwo.style.display = "flex";
+    });
+
+    tabletTwo.addEventListener("mouseup", function() {
+      tabletTwo.style.display = "none";
+      tabletThree.style.display = "flex";
+    });
+
+  </script>
+</body>
+</html>
