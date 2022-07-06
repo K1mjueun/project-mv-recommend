@@ -28,9 +28,12 @@ let displayAppear = [
   const firstP = document.getElementById("first-page");
   const logo = firstP.children[0];
   const loginP = document.getElementById("login-page");
-
   displayChange(logo,firstP,loginP);
   
   const loginBtn = document.querySelector("#login-page > button")
   const homeP = document.getElementById("home-page");
   displayChange(loginBtn,loginP,homeP);
+
+  const colorPicker = document.getElementById("color-picker");
+  const mvP = document.getElementById("mv-page");
+  displayChange(colorPicker,homeP,mvP);
