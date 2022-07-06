@@ -15,17 +15,38 @@
 }
 
 #mv-page-2 > header {
-  width: 100%;
-  height: 10%;
-  padding-left: 20px;
+  z-index: 1;
+}
 
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+#mv-page-2 > .mini-color-picker {
+  top:7%;
+}
 
-  color: rgb(225, 238, 238);
-  font-size: 30px;
+#mv-page-2 > .mv-img {
+  margin-top: 25px;
+}
 
-  position: absolute;
-  top:0;
+#mv-page-2 > div:nth-child(3) {
+  margin-top: 35%;
+}
+
+#mv-page-2 > div:nth-child(4) {
+  background-image: url("/bubbleroom-mobile-vertical/mv-img-blueming.jpg");
+}
+#mv-page-2 > div:nth-child(4) > .mv-info > .album-img {
+  background-image: url("/bubbleroom-mobile-vertical/album-img-blueming.jpg");
+}
+
+#mv-page-2 > div:nth-child(5) {
+  background-image: url("/bubbleroom-mobile-vertical/mv-img-queendom.jpg");
+}
+#mv-page-2 > div:nth-child(5) > .mv-info > .album-img {
+  background-image: url("/bubbleroom-mobile-vertical/album-img-queendom.jpg");
+}
+
+#mv-page-2 > div:nth-child(6) {
+  background-image: url("/bubbleroom-mobile-vertical/mv-img-savage.jpg");
+}
+#mv-page-2 > div:nth-child(6) > .mv-info > .album-img {
+  background-image: url("/bubbleroom-mobile-vertical/album-img-savage.jpg");
 }

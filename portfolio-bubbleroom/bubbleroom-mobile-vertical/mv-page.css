@@ -14,7 +14,7 @@
   position: relative;
 }
 
-#mv-page > header {
+header {
   width: 100%;
   height: 10%;
   padding-left: 20px;
@@ -45,7 +45,7 @@
   cursor: pointer;
 }
 
-#mv-img {
+.mv-img {
   width: 85%;
   height: 20%;
   background-image: url("/bubbleroom-mobile-vertical/mv-img.jpg");
