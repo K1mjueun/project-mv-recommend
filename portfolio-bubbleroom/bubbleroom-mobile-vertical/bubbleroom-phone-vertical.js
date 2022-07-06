@@ -1,8 +1,6 @@
 
 let displayAppear = [
-  {opacity: 0.7},
-  {opacity: 0.8},
-  {opacity: 0.9},
+  {opacity: .5},
   {opacity: 1},
 ];
 
@@ -32,3 +30,7 @@ let displayAppear = [
   const loginP = document.getElementById("login-page");
 
   displayChange(logo,firstP,loginP);
+  
+  const loginBtn = document.querySelector("#login-page > button")
+  const homeP = document.getElementById("home-page");
+  displayChange(loginBtn,loginP,homeP);
