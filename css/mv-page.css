@@ -48,7 +48,7 @@ header {
 .mv-img {
   width: 85%;
   height: 20%;
-  background-image: url("../bubbleroom-mobile-vertical/img/mv-img.jpg");
+  background-image: url("../img/mv-img.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -72,7 +72,7 @@ header {
 .album-img {
   width: 40%;
   height: 75%;
-  background-image: url("../bubbleroom-mobile-vertical/img/album-img.jpg");
+  background-image: url("../img/album-img.jpg");
   background-size: cover;
   background-position: center;
 
