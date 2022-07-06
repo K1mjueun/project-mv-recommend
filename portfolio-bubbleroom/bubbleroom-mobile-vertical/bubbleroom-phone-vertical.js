@@ -22,6 +22,10 @@ let displayAppear = [
 
 
 
+  
+
+
+
 
 
   //bubble room
