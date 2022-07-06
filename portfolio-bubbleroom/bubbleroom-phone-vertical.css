@@ -1,0 +1,29 @@
+
+* {margin: 0; padding: 0; box-sizing: border-box; list-style-type: none;}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F2F1F6;
+}
+
+#phone-vertical {
+  width: 342px;
+  height: 740px;
+  border-radius: 30px;
+  background-image: url("/버블룸-모바일-세로.png");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.1);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: auto;
+
+  position: relative;
+}
