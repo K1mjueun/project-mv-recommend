@@ -37,7 +37,7 @@
 #color-picker {
   width: 150px;
   height: 150px;
-  background-image: url("/bubbleroom-mobile-vertical/colorpicker.png");
+  background-image: url("../bubbleroom-mobile-vertical/img/colorpicker.png");
   background-size: cover;
   background-position: center;
   opacity: .6;

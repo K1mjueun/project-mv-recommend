@@ -23,7 +23,7 @@
 #mini-logo > main {
   width: 105px;
   height: 105px;
-  background-image: url("/bubbleroom-mobile-vertical/미니 로고.png");
+  background-image: url("../bubbleroom-mobile-vertical/img/미니 로고.png");
   background-size: cover;
   background-position: center;
 }
