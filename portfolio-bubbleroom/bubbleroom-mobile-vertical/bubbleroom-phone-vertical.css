@@ -14,10 +14,8 @@
   width: 342px;
   height: 740px;
   border-radius: 30px;
-  background-image: url("/버블룸-모바일-세로.png");
-  background-size: cover;
-  background-position: center;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.1);
+  background-color: #fff;
   
   display: flex;
   align-items: center;

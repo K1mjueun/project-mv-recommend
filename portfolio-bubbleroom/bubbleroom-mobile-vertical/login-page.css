@@ -1,0 +1,91 @@
+
+#login-page {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+
+  flex-direction: column;
+}
+
+#mini-logo {
+  width: 100px;
+  height: 100px;
+  background-image: url("/bubbleroom-mobile-vertical/미니 로고.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#login-page > section {
+  width: 85%;
+  height: 6.5%;
+  border-radius: 50px;
+  background-image:linear-gradient(to right,#FCDBD6,#CDF4E2,#DBE2E8);
+  margin-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#login-page > section > h1 {
+  width: 97.5%;
+  height: 85.5%;
+  border-radius: 50px;
+  background-color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  font-size: 13px;
+  font-weight: normal;
+  color:#ccc;
+  padding-left : 10px;
+}
+
+#login-page > button {
+  width: 100%;
+  height: 5%;
+  background-color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:0;
+
+  font-size: 15px;
+  font-weight: normal;
+  color:#ccc;
+}
+
+#sign-up-box, #find-info-box {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#sign-up-box > h1, #find-info-box > h1 {
+  color:#ccc;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+#sign-up-box > li, #find-info-box > li {
+  height: 3px;
+  background-image:linear-gradient(to right,#FCDBD6,#CDF4E2,#DBE2E8);
+}
+
+#sign-up-box > li {
+  width: 50px;
+}
+#find-info-box > li {
+  width: 70px;
+}
