@@ -37,3 +37,7 @@ let displayAppear = [
   const colorPicker = document.getElementById("color-picker");
   const mvP = document.getElementById("mv-page");
   displayChange(colorPicker,homeP,mvP);
+
+  const miniColorPicker = document.querySelector(".mini-color-picker");
+  const mvP2 = document.getElementById("mv-page-2");
+  displayChange(miniColorPicker,mvP,mvP2);
