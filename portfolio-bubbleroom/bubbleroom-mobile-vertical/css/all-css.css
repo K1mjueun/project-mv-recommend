@@ -1,7 +1,7 @@
 
-@import url("../bubbleroom-mobile-vertical/css/bubbleroom-phone-vertical.css");
-@import url("../bubbleroom-mobile-vertical/css/first-page.css");
-@import url("../bubbleroom-mobile-vertical/css/home-page.css");
-@import url("../bubbleroom-mobile-vertical/css/login-page.css");
-@import url("../bubbleroom-mobile-vertical/css/mv-page.css");
-@import url("../bubbleroom-mobile-vertical/css/mv-page-2.css");
+@import url("./portfolio-bubbleroom/bubbleroom-mobile-vertical/css/bubbleroom-phone-vertical.css");
+@import url("./portfolio-bubbleroom/bubbleroom-mobile-vertical/css/first-page.css");
+@import url("./portfolio-bubbleroom/bubbleroom-mobile-vertical/css/login-page.css");
+@import url("./portfolio-bubbleroom/bubbleroom-mobile-vertical/css/home-page.css");
+@import url("./portfolio-bubbleroom/bubbleroom-mobile-vertical/css/mv-page.css");
+@import url("./portfolio-bubbleroom/bubbleroom-mobile-vertical/css/mv-page-2.css");
