@@ -109,7 +109,7 @@ let displayAppear = [
   displayChange(bubbles[1],searchP,moodP);
   displayChange(bubbles[5],searchP,colorP);
 
-  const searchNcategoryP = document.getElementById("s-n-c-page");
+  const searchNcategoryP = document.getElementById("search-and-category-page");
   const directorPbackBtn = document.querySelector("#director-page > header");
   const moodPbackBtn = document.querySelector("#mood-page > header");
   const colorPbackBtn = document.querySelector("#color-page > header");
