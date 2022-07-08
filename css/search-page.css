@@ -80,6 +80,10 @@
   font-size: 12px;
 }
 
+#bubble-1, #bubble-2, #bubble-3, #bubble-4, #bubble-5, #bubble-6:hover {
+  cursor: pointer;
+}
+
 #bubble-1 {
   width: 100px;
   height: 100px;
@@ -131,5 +135,5 @@
   border-radius: 150px;
   top: 5%;
   right: -10%;
-  animation: 5s bubble alternate infinite;
+  animation: 4s bubble alternate infinite;
 }

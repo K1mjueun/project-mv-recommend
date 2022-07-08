@@ -1,11 +1,11 @@
 
 let displayAppear = [
-  {opacity: .5},
+  {opacity: .7},
   {opacity: 1},
 ];
 
   let displayChangeTime = {
-    duration: 700,
+    duration: 1000,
     iterations: 1
   };
   //화면 전환 애니메이션
@@ -96,3 +96,6 @@ let displayAppear = [
     searchBubbles.animate(displayAppear,bubblesTime);
     searchBubbles.style.opacity = 1;
   });
+
+  const searchPbackBtn = searchP.children[0];
+  displayChange(searchPbackBtn,searchP,menuP);

@@ -32,7 +32,7 @@
   flex-direction: column;
 }
 
-#menu > li,#menu > h1 {
+#menu > li, #menu > h1 {
   color: #ccc;
   font-weight: normal;
 }
