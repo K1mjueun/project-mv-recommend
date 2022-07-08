@@ -2,8 +2,8 @@
 #mv-page-4 {
   width: 100%;
   height: 100%;
-  background: rgb(249,254,255);
-  background: linear-gradient(150deg, rgba(250,255,255,1) 0%, rgba(250,245,255,1) 100%);
+  background: rgb(239,254,238);
+  background: linear-gradient(143deg, rgba(239,254,238,1) 0%, rgba(194,242,186,1) 100%);
 
   display: none;
   align-items: center;
@@ -12,6 +12,15 @@
 
   flex-direction: column;
   position: relative;
+}
+
+#mv-page-4 > header {
+  color:#d7f1dd;
+}
+
+#mv-page-4 > .mini-color-picker {
+  background: rgb(152,243,138);
+  background: linear-gradient(143deg, rgb(129, 238, 112) 0%, rgba(194,242,186,1) 100%);
 }
 
 #mv-page-4 > header {
@@ -27,26 +36,31 @@
 }
 
 #mv-page-4 > div:nth-child(3) {
+  background-image: url("../img/mv-img-palette.png");
   margin-top: 35%;
 }
 
+#mv-page-4 > div:nth-child(3) > .mv-info > .album-img {
+  background-image: url("../img/album-img-palette.jpg");
+}
+
 #mv-page-4 > div:nth-child(4) {
-  background-image: url("../img/mv-img-blueming.jpg");
+  background-image: url("../img/mv-img-bbibbi1.jpg");
 }
 #mv-page-4 > div:nth-child(4) > .mv-info > .album-img {
-  background-image: url("../img/album-img-blueming.jpg");
+  background-image: url("../img/album-img-bbibbi1.jpg");
 }
 
 #mv-page-4 > div:nth-child(5) {
-  background-image: url("../img/mv-img-queendom.jpg");
+  background-image: url("../img/mv-img-bbibbi2.png");
 }
 #mv-page-4 > div:nth-child(5) > .mv-info > .album-img {
-  background-image: url("../img/album-img-queendom.jpg");
+  background-image: url("../img/album-img-bbibbi2.jpg");
 }
 
 #mv-page-4 > div:nth-child(6) {
-  background-image: url("../img/mv-img-savage.jpg");
+  background-image: url("../img/mv-img-green.jpg");
 }
 #mv-page-4 > div:nth-child(6) > .mv-info > .album-img {
-  background-image: url("../img/album-img-savage.jpg");
+  background-image: url("../img/album-img-green.jpg");
 }
