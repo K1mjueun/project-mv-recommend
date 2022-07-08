@@ -41,7 +41,6 @@ let displayAppear = [
   const logo = firstP.children[0];
   const loginP = document.getElementById("login-page");
   displayChange(logo,firstP,loginP);
-  
   const loginBtn = document.querySelector("#login-page > button")
   const homeP = document.getElementById("home-page");
   displayChange(loginBtn,loginP,homeP);
@@ -73,3 +72,7 @@ let displayAppear = [
   displayChange(mvP2backBtn,mvP2,mvP);
   displayChange(mvP3backBtn,mvP3,homeP);
   displayChange(mvP4backBtn,mvP4,mvP3);
+
+  const menuBtn = homeP.children[0];
+  const menuP = document.getElementById("menu-page");
+  displayChange(menuBtn,homeP,menuP);

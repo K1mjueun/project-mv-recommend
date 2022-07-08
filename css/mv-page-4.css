@@ -47,6 +47,7 @@
 #mv-page-4 > div:nth-child(4) {
   background-image: url("../img/mv-img-bbibbi1.jpg");
 }
+
 #mv-page-4 > div:nth-child(4) > .mv-info > .album-img {
   background-image: url("../img/album-img-bbibbi1.jpg");
 }
@@ -54,6 +55,7 @@
 #mv-page-4 > div:nth-child(5) {
   background-image: url("../img/mv-img-bbibbi2.png");
 }
+
 #mv-page-4 > div:nth-child(5) > .mv-info > .album-img {
   background-image: url("../img/album-img-bbibbi2.jpg");
 }
@@ -61,6 +63,7 @@
 #mv-page-4 > div:nth-child(6) {
   background-image: url("../img/mv-img-green.jpg");
 }
+
 #mv-page-4 > div:nth-child(6) > .mv-info > .album-img {
   background-image: url("../img/album-img-green.jpg");
 }
