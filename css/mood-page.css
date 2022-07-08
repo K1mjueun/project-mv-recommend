@@ -17,3 +17,8 @@
   color:#E5E5E5;
   position: relative;
 }
+
+#mood-page > li:nth-child(1) > h1 {
+  color: gray;
+  font-weight: bold;
+}

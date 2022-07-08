@@ -116,3 +116,7 @@ let displayAppear = [
   displayChange(directorPbackBtn,directorP,searchNcategoryP);
   displayChange(moodPbackBtn,moodP,searchNcategoryP);
   displayChange(colorPbackBtn,colorP,searchNcategoryP);
+
+
+  const sNcPbackBtn = searchNcategoryP.children[0];
+  displayChange(sNcPbackBtn,searchNcategoryP,menuP);
