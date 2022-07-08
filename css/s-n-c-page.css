@@ -1,5 +1,5 @@
 
-#mood-page {
+#search-and-category-page {
   width: 100%;
   height: 100%;
   background-color: #fff;
@@ -13,7 +13,15 @@
   position: relative;
 }
 
-#mood-page > header {
+#search-and-category-page > header {
   color:#E5E5E5;
   position: relative;
+}
+
+#search-bar {
+  color:gray;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 4%;
 }

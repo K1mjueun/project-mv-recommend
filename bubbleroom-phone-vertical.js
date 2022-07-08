@@ -99,3 +99,20 @@ let displayAppear = [
 
   const searchPbackBtn = searchP.children[0];
   displayChange(searchPbackBtn,searchP,menuP);
+
+  const bubbles = searchBubbles.children;
+  const directorP = document.getElementById("director-page");
+  const moodP = document.getElementById("mood-page");
+  const colorP = document.getElementById("color-page");
+
+  displayChange(bubbles[0],searchP,directorP);
+  displayChange(bubbles[1],searchP,moodP);
+  displayChange(bubbles[5],searchP,colorP);
+
+  const searchNcategoryP = document.getElementById("s-n-c-page");
+  const directorPbackBtn = document.querySelector("#director-page > header");
+  const moodPbackBtn = document.querySelector("#mood-page > header");
+  const colorPbackBtn = document.querySelector("#color-page > header");
+  displayChange(directorPbackBtn,directorP,searchNcategoryP);
+  displayChange(moodPbackBtn,moodP,searchNcategoryP);
+  displayChange(colorPbackBtn,colorP,searchNcategoryP);

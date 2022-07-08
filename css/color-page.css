@@ -1,0 +1,19 @@
+
+#color-page {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+
+  flex-direction: column;
+  position: relative;
+}
+
+#color-page > header {
+  color:#E5E5E5;
+  position: relative;
+}
