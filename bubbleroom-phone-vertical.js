@@ -5,7 +5,7 @@ let displayAppear = [
 ];
 
   let displayChangeTime = {
-    duration: 500,
+    duration: 700,
     iterations: 1
   };
   //화면 전환 애니메이션
@@ -76,3 +76,23 @@ let displayAppear = [
   const menuBtn = homeP.children[0];
   const menuP = document.getElementById("menu-page");
   displayChange(menuBtn,homeP,menuP);
+
+  const miniLogotoHome = menuP.children[0];
+  displayChange(miniLogotoHome,menuP,homeP);
+
+  const menuList = document.querySelector("#menu-page > #menu");
+  const searchP = document.getElementById("search-page");
+  displayChange(menuList.children[2],menuP,searchP);
+
+  const searchBubbles = searchP.children[2];
+  const searchIcon = searchP.children[1].children[0];
+
+  let bubblesTime = {
+    duration: 1000,
+    iterations: 1
+  };
+
+  searchIcon.addEventListener('click', function() {
+    searchBubbles.animate(displayAppear,bubblesTime);
+    searchBubbles.style.opacity = 1;
+  });
