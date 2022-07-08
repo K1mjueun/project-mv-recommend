@@ -46,13 +46,30 @@ let displayAppear = [
   const homeP = document.getElementById("home-page");
   displayChange(loginBtn,loginP,homeP);
 
-  const colorPicker = document.getElementById("color-picker");
-  const mvP = document.getElementById("mv-page");
-  displayChange(colorPicker,homeP,mvP);
 
-  const miniColorPicker = document.querySelector(".mini-color-picker");
+  const colorPicker = document.getElementById("color-picker");
+  const greenPick = colorPicker.children[0];
+  const bluepurplePick = colorPicker.children[1];
+
+  const mvP = document.getElementById("mv-page");
   const mvP2 = document.getElementById("mv-page-2");
-  displayChange(miniColorPicker,mvP,mvP2);
+  const mvP3 = document.getElementById("mv-page-3");
+  const mvP4 = document.getElementById("mv-page-4");
+  displayChange(bluepurplePick,homeP,mvP);
+  displayChange(greenPick,homeP,mvP3);
+
+
+  const mvPminiColorPicker = document.querySelector("#mv-page > .mini-color-picker");
+  const mvP3miniColorPicker = document.querySelector("#mv-page-3 > .mini-color-picker");
+  displayChange(mvPminiColorPicker,mvP,mvP2);
+  displayChange(mvP3miniColorPicker,mvP3,mvP4);
+
 
   const mvPbackBtn = document.querySelector("#mv-page > header");
+  const mvP2backBtn = document.querySelector("#mv-page-2 > header");
+  const mvP3backBtn = document.querySelector("#mv-page-3 > header");
+  const mvP4backBtn = document.querySelector("#mv-page-4 > header");
   displayChange(mvPbackBtn,mvP,homeP);
+  displayChange(mvP2backBtn,mvP2,mvP);
+  displayChange(mvP3backBtn,mvP3,homeP);
+  displayChange(mvP4backBtn,mvP4,mvP3);

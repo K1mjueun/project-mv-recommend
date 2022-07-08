@@ -24,6 +24,10 @@
   top:30px;
 }
 
+#home-page > nav:hover {
+  cursor: pointer;
+}
+
 #pick {
   width: 100%;
   height: 50%;
@@ -41,10 +45,16 @@
   background-size: cover;
   background-position: center;
   opacity: .6;
+  display: flex;
 }
 
 #color-picker:hover {
   cursor: pointer;
+}
+
+#green, #bluepurple {
+  width: 50%;
+  height: 100%;
 }
 
 #pick > h1 {
