@@ -18,7 +18,3 @@
   position: relative;
 }
 
-#color-page > li:nth-child(1) > h1 {
-  color: gray;
-  font-weight: bold;
-}

@@ -50,7 +50,7 @@
   font-weight: normal;
 }
 
-#director-page > li:nth-child(1) > h1 {
+#first-font {
   color: gray;
   font-weight: bold;
 }
