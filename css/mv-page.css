@@ -34,8 +34,8 @@ header {
   width: 35px;
   height: 35px;
   border-radius: 100px;
-  background: rgb(175,243,255);
-  background: linear-gradient(143deg, rgba(175,243,255,1) 0%, rgba(231,193,255,1) 100%);
+  background: rgb(118,215,255);
+  background: linear-gradient(143deg, rgba(118,215,255,1) 0%, rgba(232,153,255,1) 100%);
 
   position: absolute;
   top:30%;
@@ -96,3 +96,6 @@ header {
   font-weight: normal;
 }
 
+header:hover {
+  cursor: pointer;
+}

@@ -19,10 +19,18 @@ let displayAppear = [
     });
   };
   //화면 전환 함수
-
-
-
   
+  // const init = {
+  //   root: document.getElementById("root"),
+  //   slide: {
+  //     leftButton: document.getElementById("slide-button-left"),
+  //     imgWrapper: document.getElementById("slide-img-wrapper"),
+  //     imgItems: Array.from(document.querySelectorAll("#slide-img-wrapper > div")).reverse(),
+  //     rightButton: document.getElementById("slide-button-left"),
+  //   }
+  // };
+  //하나하나 const하지 않고 정리하기
+
 
 
 
@@ -45,3 +53,6 @@ let displayAppear = [
   const miniColorPicker = document.querySelector(".mini-color-picker");
   const mvP2 = document.getElementById("mv-page-2");
   displayChange(miniColorPicker,mvP,mvP2);
+
+  const mvPbackBtn = document.querySelector("#mv-page > header");
+  displayChange(mvPbackBtn,mvP,homeP);
